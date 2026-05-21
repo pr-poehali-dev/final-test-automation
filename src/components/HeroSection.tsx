@@ -2,10 +2,9 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  '/abstract-black-and-white-photography-creative-stud.jpg',
-  '/artistic-black-and-white-portrait-creative.jpg',
-  '/minimalist-creative-workspace-black-and-white.jpg',
-  '/modern-design-studio-black-and-white-aesthetic.jpg',
+  'https://cdn.poehali.dev/projects/cc1ffb22-c28b-49f4-8b07-8a87c5b01df8/bucket/b5f4ceca-7cb7-4038-b5f5-b1d83741510b.jpg',
+  'https://cdn.poehali.dev/projects/cc1ffb22-c28b-49f4-8b07-8a87c5b01df8/bucket/fae960ba-9d35-4a32-8fbd-8e32ae425ea0.jpg',
+  'https://cdn.poehali.dev/projects/cc1ffb22-c28b-49f4-8b07-8a87c5b01df8/bucket/fb46f66d-5201-4b51-bf81-9313580293fd.jpg',
 ];
 
 export default function HeroSection() {
