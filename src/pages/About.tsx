@@ -31,6 +31,23 @@ export default function About() {
           </p>
         </div>
 
+        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-6 mb-14">
+          <div className="border border-white/10 p-8 hover:border-white/30 transition-colors duration-300">
+            <div className="text-3xl mb-4">🏆</div>
+            <h3 className="text-white text-lg font-light mb-3 tracking-wide">Достижения</h3>
+            <p className="text-white/60 text-sm leading-relaxed">
+              Участница муниципальной олимпиады по ОБЖ — умею держать голову холодной в любой ситуации.
+            </p>
+          </div>
+          <div className="border border-white/10 p-8 hover:border-white/30 transition-colors duration-300">
+            <div className="text-3xl mb-4">💪</div>
+            <h3 className="text-white text-lg font-light mb-3 tracking-wide">Увлечения</h3>
+            <p className="text-white/60 text-sm leading-relaxed">
+              Регулярно хожу в спортзал — спорт помогает держать себя в тонусе и заряжает энергией на весь день.
+            </p>
+          </div>
+        </div>
+
         <div className="mt-14 flex gap-4">
           <Link
             to="/marketing"
