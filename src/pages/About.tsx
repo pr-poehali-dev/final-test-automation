@@ -48,6 +48,18 @@ export default function About() {
           </div>
         </div>
 
+        <div className="border-l-2 border-white/20 pl-8 mb-14">
+          <p className="text-white/50 uppercase tracking-widest text-xs mb-3">Мечта</p>
+          <p className="text-white/80 text-lg font-light leading-relaxed">
+            В будущем я хочу стать бьюти-мастером — создавать образы, которые делают людей красивее и увереннее в себе. Красота — это тоже искусство, и я хочу им владеть.
+          </p>
+          <div className="flex gap-3 mt-4">
+            <span className="text-sm text-white/40 tracking-widest">💄 Макияж</span>
+            <span className="text-sm text-white/40 tracking-widest">✨ Стиль</span>
+            <span className="text-sm text-white/40 tracking-widest">🌸 Уход</span>
+          </div>
+        </div>
+
         <div className="mt-14 flex gap-4">
           <Link
             to="/marketing"
