@@ -5,6 +5,7 @@ const links = [
   { href: '/', label: 'Главная' },
   { href: '/about', label: 'О себе' },
   { href: '/marketing', label: 'Маркетинг' },
+  { href: '/beauty', label: 'Бьюти' },
 ];
 
 export default function Navbar() {

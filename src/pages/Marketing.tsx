@@ -65,12 +65,20 @@ export default function Marketing() {
           <p className="text-white/40 text-sm mt-3 tracking-widest uppercase">— Настя, будущий маркетолог</p>
         </div>
 
-        <Link
-          to="/about"
-          className="px-8 py-3 border border-white text-white text-sm tracking-widest uppercase hover:bg-white hover:text-black transition-colors duration-300"
-        >
-          ← О себе
-        </Link>
+        <div className="flex gap-4">
+          <Link
+            to="/about"
+            className="px-8 py-3 border border-white text-white text-sm tracking-widest uppercase hover:bg-white hover:text-black transition-colors duration-300"
+          >
+            ← О себе
+          </Link>
+          <Link
+            to="/beauty"
+            className="px-8 py-3 text-white/50 text-sm tracking-widest uppercase hover:text-white transition-colors duration-300"
+          >
+            Бьюти →
+          </Link>
+        </div>
       </div>
     </main>
   );

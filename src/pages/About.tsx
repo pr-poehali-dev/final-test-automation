@@ -65,7 +65,13 @@ export default function About() {
             to="/marketing"
             className="px-8 py-3 border border-white text-white text-sm tracking-widest uppercase hover:bg-white hover:text-black transition-colors duration-300"
           >
-            Про маркетинг →
+            Маркетинг →
+          </Link>
+          <Link
+            to="/beauty"
+            className="px-8 py-3 border border-white/30 text-white/60 text-sm tracking-widest uppercase hover:border-white hover:text-white transition-colors duration-300"
+          >
+            Бьюти →
           </Link>
           <Link
             to="/"
